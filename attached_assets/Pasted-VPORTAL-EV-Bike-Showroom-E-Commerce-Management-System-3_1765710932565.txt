@@ -1,0 +1,142 @@
+VPORTAL — EV Bike Showroom & E-Commerce Management System (3-Level Hierarchy)
+— Full Project in PHP + MySQL, running on XAMPP Localhost, no external cloud.
+
+🎯 GOAL
+Generate a complete production-ready system with:
+✔ Admin (Showroom Owner) Panel
+✔ Customer/User E-Commerce Website
+All built using:
+Backend: PHP
+Frontend: HTML + CSS + JS + bootstap
+Database: MySQL
+Server: Localhost (XAMPP)
+PDF Invoice: jsPDF
+Notifications: Email & SMS API integration (optional placeholders)
+Your task is to create a full project with ALL modules, SQL, UI, backend logic, and documentation.
+
+🧩 SYSTEM MODULES
+
+🟣 
+🔵 1. SHOWROOM ADMIN PANEL
+First login then access , there is no registration require and admin having all crud operation
+Admin is the EV showroom owner.
+(A) Dashboard
+Total Bikes
+Total Stock
+Pending Preorders
+Orders overview
+Billing summary
+Running offers
+
+(B) Product Management
+Add EV Bike
+Add Variants
+Upload Images
+Add Specs (battery, motor, range)
+Add EMI options
+Add accessories
+Manage stock
+
+(C) Orders & Preorders
+View all preorders
+Approve/Reject preorders
+Assign delivery date
+Update order status:
+Pending → Approved → In Progress → Ready → Delivered
+
+(D) Billing System
+Create invoice
+Auto-GST calculation
+Add discount
+Add service charges
+Generate PDF invoice
+Auto-email invoice
+Save invoice in DB
+Billing reports (Daily/Weekly/Monthly)
+
+(E) Offers & Notifications
+Create showroom-specific offers
+Send SMS/Email notifications
+Push notification history
+
+(F) Website Content Control
+Manage banners
+About us page
+Gallery
+Testimonials
+Showroom location
+
+(G) Support System
+Manage complaints
+Replay to customer inquiries
+
+🟢 2. CUSTOMER / USER E-COMMERCE WEBSITE
+Pages:
+Home
+Bike Listing
+Bike Details
+Compare Bikes
+Preorder Page
+User Login/Signup
+User Dashboard
+Offers Page
+Contact Support
+
+User Can:
+Browse EV bikes
+View specs
+View 360° gallery
+Compare bike models
+Add to wishlist
+Preorder
+Track status
+Download invoice
+Receive offers
+
+Notifications User Receives:
+Preorder confirmation
+Status update
+New offers
+Showroom announcements
+
+
+🎨 UI/UX Requirements
+Website UI:
+EV futuristic theme
+Animated banner
+Slider sections
+Horizontal bike cards
+360° image viewer
+Sticky preorder button
+Mobile responsive
+
+Admin UI:
+Sidebar menu
+Analytics cards
+Light/Dark theme
+Charts for sales, stock, orders
+Clean layout
+
+🗄 DATABASE STRUCTURE (MySQL)
+Tables Required:
+admins
+users
+products
+variants
+product_images
+wishlist
+inquiries
+preorders
+orders
+invoices
+payments
+offers
+notifications
+system_logs
+admin_activity
+global_settings
+banners
+themes
+complaint
+You must generate full SQL schema.
+
